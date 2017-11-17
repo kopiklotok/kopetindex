@@ -14,7 +14,9 @@ if(isset($_GET['domain'])){
 		'web'	=> cekindex($_GET['domain'],'web'),
 		'web24'	=> cekindex($_GET['domain'],'web24'),
 		'img'	=> cekindex($_GET['domain'],'img'),
-		'img24'	=> cekindex($_GET['domain'],'img24')
+		'img24'	=> cekindex($_GET['domain'],'img24'),
+		'date' => date('Y-m-d'),
+		'datetime' => date('Y-m-d H:i:s')
 	];
 		
 }else{
